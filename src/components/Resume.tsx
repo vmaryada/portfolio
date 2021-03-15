@@ -23,7 +23,7 @@ function Resume() {
       <br/>
       <Typography variant="h4" style={{ color: 'navy',marginLeft:'10%' }}>Resume</Typography>
       <Grid container style={{alignItems:'center', justifyContent:'center', marginTop:20}}>
-      <a href='./vineeth_resume_jan2021.pdf' download><Button color="primary"><CloudDownloadIcon/>&nbsp;&nbsp;Download</Button></a>
+      <a href='./vineeth_resume_jan2021.docx' download><Button color="primary"><CloudDownloadIcon/>&nbsp;&nbsp;Download</Button></a>
       </Grid>
       <Hidden only="xs">
       <Grid container style={{ marginTop: 35 }}>
