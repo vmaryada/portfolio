@@ -20,8 +20,13 @@ function Resume() {
 
   return (
     <Fragment>
-      <br/>
-      <Typography variant="h4" style={{ color: 'navy',marginLeft:'10%' }}>Resume</Typography>
+      <Grid container style={{ marginTop: 35 }}>
+     <Grid item sm={2} md={2}>&nbsp;</Grid>
+            <Grid item sm={8} md={8}>
+                <Typography variant="h4" style={{ marginLeft:10, color: 'navy' }}>Resume</Typography>
+                </Grid>
+                <Grid item sm={2} md={2}>&nbsp;</Grid>
+                </Grid>      
       <Grid container style={{alignItems:'center', justifyContent:'center', marginTop:20}}>
       <a href='./vineeth_resume_jan2021.docx' download><Button color="primary"><CloudDownloadIcon/>&nbsp;&nbsp;Download</Button></a>
       </Grid>

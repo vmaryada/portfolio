@@ -9,14 +9,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import SocialMedia from '../assets/social_media.jpeg';
 import Search from '../assets/search.png';
 import slider from '../assets/slider.gif';
-import { Link as RouterLink } from 'react-router-dom'
 
 function Projects() {
     return (
         <Grid container style={{ marginTop: 35 }}>
             <Grid item sm={2} md={2}>&nbsp;</Grid>
             <Grid item sm={8} md={8}>
-                <Typography variant="h4" style={{ color: 'navy' }}>Projects</Typography>
+                <Typography variant="h4" style={{ marginLeft:10, color: 'navy' }}>Projects</Typography>
                 <Grid container style={{ marginTop: 20 }}>
                     <Grid item md={6} sm={12}>
                         <Link  href='https://vmaryada.github.io/rooster/#/'>
